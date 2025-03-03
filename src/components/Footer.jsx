@@ -82,22 +82,6 @@ const Footer = () => {
               ))}
             </div>
           </div>
-
-          {/* Mobile Apps - Minimalist */}
-          <div className="space-y-4">
-            <h4 className="text-xl font-semibold text-gray-900">Get the App</h4>
-            <div className="space-y-3">
-              {['App Store', 'Google Play'].map((store) => (
-                <button
-                  key={store}
-                  className="w-full px-6 py-3 bg-gray-50 hover:bg-gray-100 rounded-xl flex items-center justify-center space-x-3 transition-all"
-                >
-                  <img src="/api/placeholder/24/24" alt={store} className="w-6 h-6" />
-                  <span className="text-gray-900 font-medium">{store}</span>
-                </button>
-              ))}
-            </div>
-          </div>
         </div>
       </div>
 
